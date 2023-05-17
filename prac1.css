@@ -1,0 +1,97 @@
+body{
+    background: url("background.jpg");
+}
+.container{
+    position: relative;
+    left: 30%;
+    top: 18rem;
+    background: url('aeroplane.jpeg') no-repeat;
+    height: 285px;
+    width: 498px;
+    border-radius: 12px;
+    margin-top: -110px;
+}
+button{
+    position: absolute;
+    left: 38%;
+    height: 24px;
+    background-color: white;
+    border: none;
+    top: 33px;
+    margin-top: 108px;
+    margin-left: 125px;
+}
+.inp{
+    height: 26px;
+    width: 223px;
+    border-radius: 5px;
+    margin-top: 15px;
+    margin-left: 116px;
+}
+.para{
+    text-align: left;
+    font-size: 25px;
+    color: white;
+    padding: 12px;
+    margin-bottom: -12px;
+}
+:root{
+    /* from this it will be accsesble everywhere */
+    --box-color:rgb(172, 172, 192);    
+}
+.cards{
+    border: 2px solid black;
+    margin-top: 18rem;
+    width: 321px;
+    color: white;
+    margin-left: 390px;
+    border-radius: 13px;
+    background-color: rgb(0, 0, 0);
+    box-shadow: 4px 4px 4px 4px var(--box-color);
+}
+.cards img{
+    border-radius: 11px;
+}
+.country-info{
+    margin-left: 16px;
+    font-size: 20px;
+}
+#coun-curr{
+margin-bottom: -10px;
+}
+.refreshbtn{
+    margin-top: 22rem;
+    padding: 5px;
+    width: 82px;
+    height: 32px;
+    border-radius: 6px;
+    margin-left: 5rem;
+    background-color: white;
+    font-size: 16px;
+
+}
+@media (max-width: 571px)  {
+    .container{
+    top: 23rem;
+    }
+    .cards{
+        margin-top: 24rem;
+    margin-left: 11rem;
+    }
+    .refreshbtn{
+        margin-top: 27rem;
+    }
+}
+@media (max-width: 405px)  {
+    .container{
+    top: 29rem;
+    }
+     .cards{
+        margin-top: 30rem;
+    margin-left: 9rem;
+    }
+    .refreshbtn{
+           margin-top: 33rem;
+           margin-left: 4rem;
+    }
+}
